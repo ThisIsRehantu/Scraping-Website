@@ -18,9 +18,9 @@ Cocok buat arsip website atau clone untuk deploy ulang di hosting static seperti
 
 ## 📂 Struktur Output ( Hasil Scraper ) 
 
-output/ ├── index.html        # HTML hasil render 
-        ├── screenshot.png    # Screenshot halaman penuh 
-        └── assets/           # File CSS, JS, dan gambar
+output/ ├── index.html
+        ├── screenshot.png
+        └── assets/
 
 
 
