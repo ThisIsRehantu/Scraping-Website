@@ -53,9 +53,9 @@ libxshmfence1 \
 libx11-xcb1 \
 libx11-6 \
 libxcb1 \
-libglib2.0-0
+libglib2.0-0 ```
 
-## 3. Instal Dependencies
+### 3. Instal Dependencies
 
 ```bash
 pip install playwright requests
