@@ -16,8 +16,6 @@ Cocok buat arsip website atau clone untuk deploy ulang di hosting static seperti
 
 ---
 
-## 📂 Struktur Output
-Hasil scraping akan tersimpan dalam struktur berikut:
 
 ## 📂 Struktur Output ( Hasil Scraper ) 
 
@@ -30,7 +28,7 @@ output/ ├── index.html
 ---
 
 ## 🛠️ Setup di GitHub Codespaces
-
+<br></br>
 
 ### A. GitHub Codespaces 
 - Buka Codespaces
@@ -78,6 +76,7 @@ python scrape.py
 ---
 
 ### B. PC Lokal (Linux/Mac/Windows)
+<br></br>
 
 ### 1. Clone repo
 ```bash
@@ -91,7 +90,7 @@ cd REPO-NAME
 pip install playwright requests
 playwright install chromium
 ```
-⚠️ Catatan untuk Linux: Jika Playwright error karena dependency sistem, install paket berikut:
+# ⚠️ Catatan untuk Linux: Jika Playwright error karena dependency sistem, install paket berikut:
 ```bash
 sudo apt-get install -y libnss3 libx11-xcb1 libxcomposite1 libxdamage1 \
 libxrandr2 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 \
@@ -108,6 +107,7 @@ python scrape.py
 
 
 ### C. Termux (Android)
+<br></br>
 
 ### 1. Update & Install Python
 ```bash
@@ -139,4 +139,4 @@ python scrape.py
 ```
 
 
-⚠️ Catatan: Playwright di Termux kadang butuh tambahan setup (misalnya Termux X11 atau proot-distro dengan Ubuntu). Kalau error, lebih disarankan pakai Codespaces atau PC.
+# ⚠️ Catatan: Playwright di Termux kadang butuh tambahan setup (misalnya Termux X11 atau proot-distro dengan Ubuntu). Kalau error, lebih disarankan pakai Codespaces atau PC.
