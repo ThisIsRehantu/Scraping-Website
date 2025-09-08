@@ -23,7 +23,7 @@ output/ ├── index.html
         ├── screenshot.png
         └── assets/
 
-
+<br></br>
 
 ---
 
@@ -72,7 +72,7 @@ playwright install chromium
 python scrape.py
 ```
 
-
+<br></br>
 ---
 
 ### B. PC Lokal (Linux/Mac/Windows)
@@ -90,7 +90,7 @@ cd REPO-NAME
 pip install playwright requests
 playwright install chromium
 ```
-# ⚠️ Catatan untuk Linux: Jika Playwright error karena dependency sistem, install paket berikut:
+#### ⚠️ Catatan untuk Linux: Jika Playwright error karena dependency sistem, install paket berikut:
 ```bash
 sudo apt-get install -y libnss3 libx11-xcb1 libxcomposite1 libxdamage1 \
 libxrandr2 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcups2 libdrm2 \
@@ -103,6 +103,7 @@ libgbm1 libxkbcommon0 libxshmfence1 libglib2.0-0
 python scrape.py
 ```
 
+<br></br>
 ---
 
 
@@ -139,4 +140,4 @@ python scrape.py
 ```
 
 
-# ⚠️ Catatan: Playwright di Termux kadang butuh tambahan setup (misalnya Termux X11 atau proot-distro dengan Ubuntu). Kalau error, lebih disarankan pakai Codespaces atau PC.
+#### ⚠️ Catatan: Playwright di Termux kadang butuh tambahan setup (misalnya Termux X11 atau proot-distro dengan Ubuntu). Kalau error, lebih disarankan pakai Codespaces atau PC.
